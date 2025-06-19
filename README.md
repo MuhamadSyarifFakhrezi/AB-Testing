@@ -48,6 +48,9 @@ Based on the statistical significance and positive uplift in the primary metric 
 
 ## Repository Structure
 ├── ab_test_results_aggregated_views_clicks_2.csv
+
 ├── notebook.ipynb
+
 ├── README.md
+
 └── images
