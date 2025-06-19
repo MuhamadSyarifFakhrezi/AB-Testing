@@ -11,9 +11,9 @@ This project aims to evaluate the effectiveness of a new application layout in  
 
 ## Hypothesis
 ### Business Hypothesis
-H₀: There is no difference between control group (new version) and test group (old version).
+H₀: There is no difference between control group and test group.
 
-H₁: Control group (new version) has at least 5% higher CTR than test group (old version).
+H₁: Control group has at least 5% higher CTR than test group.
 
 ### Statistical Hypothesis
 H₀: There is no statistically significant difference between control group and test group in CTR.
@@ -22,6 +22,7 @@ H₁: There is statistically significant difference between control group and te
 
 ## Metrics
 | **Metric** | **Type** | **Hypothesis Tested** | **Test Used** |
+| --- | --- | --- | --- |
 | CTR (Primary) | Continuous | Test CTR ≠ Control CTR | Mann-Whitney U test |
 | Views (Guardrail) | Continuous | Test views ≥ Control views | One-sided test |
 | Clicks (Secondary) | Continuous | Test clicks > Control clicks | One-sided test |
