@@ -44,12 +44,11 @@ To ensure sufficient sensitivity in detecting meaningful changes:
 - **Clicks**: Increased significantly (secondary metric supported)
 
 ## Conclusion
-Based on the statistical significance and positive uplift in the primary metric (CTR), the new layout can be recommended for broader rollout. Additionally, the stability of the views metric and the increase in clicks strengthen confidence in the feature’s positive user impact.
+Based on the statistical significance and positive uplift of 11.52% in the primary metric (CTR), the new layout can be recommended for broader rollout. Additionally, the stability of the views metric and the increase in clicks strengthen confidence in the feature’s positive user impact.
 
 ## Repository Structure
 ```
 ├── ab_test_results_aggregated_views_clicks_2.csv
 ├── notebook.ipynb
-├── README.md
-└── images
+└── README.md
 ```
